@@ -2,12 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-	<link href="https://fonts.googleapis.com/css?family=Codystar" rel="stylesheet">
-    <style>
-      body {
-        font-family: 'courier';
-      }
-    </style>
+<link href="https://fonts.googleapis.com/css?family=Codystar" rel="stylesheet">
 
 </head>   
  
@@ -39,12 +34,14 @@
 	* {box-sizing:border-box}
 	body {font-family: codystar;}
 	.mySlides {display:none}
+
 	/* Slideshow container */
 	.slideshow-container {
   	max-width: 1080px;
   	position: relative;
   	margin-top: auto;
 }
+
 	/* Caption text */
 	.text {
   	color: #f2f2f2;
@@ -55,6 +52,7 @@
   	width: 100%;
   	text-align: center;
 }
+
 	/* Number text (1/3 etc) */
 	.numbertext {
   	color: #f2f2f2;
@@ -63,6 +61,7 @@
   	position: absolute;
   	top: 0;
 }
+
 	/* The dots/bullets/indicators */
 	.dot {
   	height: 13px;
@@ -73,9 +72,11 @@
   	display: inline-block;
   	transition: background-color 0.6s ease;
 }
+
 	.active {
   	background-color: #717171;
 }
+
 	/* On smaller screens, decrease text size */
 	@media only screen and (max-width: 300px) {
   	.text {font-size: 11px}
@@ -83,43 +84,43 @@
 	</style>
 
 
-	<div class="slideshow-container">
-	</div>
+<div class="slideshow-container">
+</div>
 	
 	<div class="mySlides fade">
-  		<div class="numbertext">1 / 3</div>
-  		<img src="images/memorialsharedpic.jpg" style="width:100%">
-  	<div class="text">Memorial for Aaron Crews</div>
-	</div>
-
-	<div class="mySlides fade">
-  <div class="numbertext">2 / 3</div>
-  <img src="images/BadlerJack_4.jpg" style="width:100%">
-  <div class="text">Memorial for Angela Krueger</div>
+ 	<div class="numbertext">1 / 3</div>
+  	<img src="images/memorialsharedpic.jpg" style="width:100%">
+  	<div title="text">Memorial for Aaron Crews</div>
 </div>
 
 	<div class="mySlides fade">
-  <div class="numbertext">3 / 6</div>
-  <img src="images/BadlerJack_7.jpg" style="width:100%">
-  <div class="text">Memorial for Lena Malmberg</div>
+ 	<div class="numbertext">2 / 3</div>
+ 	<img src="images/BadlerJack_4.jpg" style="width:100%">
+	<div title="text">Memorial for Angela Krueger</div>
 </div>
 
 	<div class="mySlides fade">
-  <div class="numbertext">4 / 6</div>
-  <img src="images/_JFB4507processAndreaMarin.jpg" style="width:100%">
-  <div class="text">Memorial for Andrea Marin</div>
+	<div class="numbertext">3 / 6</div>
+	<img src="images/BadlerJack_7.jpg" style="width:100%">
+	<div title="text">Memorial for Lena Malmberg</div>
 </div>
 
 	<div class="mySlides fade">
-  <div class="numbertext">5 / 6</div>
-  <img src="images/JFB_6326.jpg" style="width:100%">
-  <div class="text">At the "The Original" Rose City Gun Show, Corn</div>
+	<div class="numbertext">4 / 6</div>
+	<img src="images/_JFB4507processAndreaMarin.jpg" style="width:100%">
+	<div title="text">Memorial for Andrea Marin</div>
 </div>
 
 	<div class="mySlides fade">
-  <div class="numbertext">6 / 6</div>
-  <img src="images/homestyle.jpg" style="width:100%">
-  <div class="text">Homestyle</div>
+	<div class="numbertext">5 / 6</div>
+	<img src="images/JFB_6326.jpg" style="width:100%">
+	<div title="text">At the "The Original" Rose City Gun Show, Corn</div>
+</div>
+
+	<div class="mySlides fade">
+	<div class="numbertext">6 / 6</div>
+	<img src="images/homestyle.jpg" style="width:100%">
+	<div title="text">Homestyle</div>
 </div>
 
 	<br>
@@ -136,6 +137,7 @@
 	<script>
 var slideIndex = 0;
 showSlides();
+
 function showSlides() {
     var i;
     var slides = document.getElementsByClassName("mySlides");
