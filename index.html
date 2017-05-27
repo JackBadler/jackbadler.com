@@ -34,8 +34,8 @@
 
 <p1>
 	
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
 	* {box-sizing:border-box}
 	body {font-family: codystar;}
 	.mySlides {display:none}
@@ -45,7 +45,7 @@
   	max-width: 1080px;
   	position: relative;
   	margin-top: auto;
-}
+	}
 
 	/* Caption text */
 	.text {
@@ -56,7 +56,7 @@
  	bottom: 8px;
   	width: 100%;
   	text-align: center;
-}
+	}
 
 	/* Number text (1/3 etc) */
 	.numbertext {
@@ -65,7 +65,7 @@
   	padding: 8px 12px;
   	position: absolute;
   	top: 0;
-}
+	}
 
 	/* The dots/bullets/indicators */
 	.dot {
@@ -76,89 +76,89 @@
   	border-radius: 50%;
   	display: inline-block;
   	transition: background-color 0.6s ease;
-}
+	}
 
 	.active {
   	background-color: #717171;
-}
+	}
 
 	/* On smaller screens, decrease text size */
 	@media only screen and (max-width: 300px) {
   	.text {font-size: 11px}
-}
-	</style>
+	}
+</style>
 
 
 	<div class="slideshow-container">
 	</div>
 	
-	<div class="mySlides fade">
-  		<div class="numbertext">1 / 3</div>
-  		<img src="images/memorialsharedpic.jpg" style="width:100%">
+<div class="mySlides fade">
+  	<div class="numbertext">1 / 3</div>
+  	<img src="images/memorialsharedpic.jpg" style="width:100%">
   	<div class="text">Memorial for Aaron Crews</div>
-	</div>
-
-	<div class="mySlides fade">
-  <div class="numbertext">2 / 3</div>
-  <img src="images/BadlerJack_4.jpg" style="width:100%">
-  <div class="text">Memorial for Angela Krueger</div>
 </div>
 
-	<div class="mySlides fade">
-  <div class="numbertext">3 / 6</div>
-  <img src="images/BadlerJack_7.jpg" style="width:100%">
-  <div class="text">Memorial for Lena Malmberg</div>
+<div class="mySlides fade">
+ 	<div class="numbertext">2 / 3</div>
+ 	<img src="images/BadlerJack_4.jpg" style="width:100%">
+  	<div class="text">Memorial for Angela Krueger</div>
 </div>
 
-	<div class="mySlides fade">
-  <div class="numbertext">4 / 6</div>
-  <img src="images/_JFB4507processAndreaMarin copy.jpg" style="width:100%">
-  <div class="text">Memorial for Andrea Marin</div>
+<div class="mySlides fade">
+ 	 <div class="numbertext">3 / 6</div>
+  	<img src="images/BadlerJack_7.jpg" style="width:100%">
+  	<div class="text">Memorial for Lena Malmberg</div>
 </div>
 
-	<div class="mySlides fade">
-  <div class="numbertext">5 / 6</div>
-  <img src="images/JFB_6326.jpg" style="width:100%">
-  <div class="text">At the "The Original" Rose City Gun Show, Corn</div>
+<div class="mySlides fade">
+ 	<div class="numbertext">4 / 6</div>
+ 	<img src="images/_JFB4507processAndreaMarin copy.jpg" style="width:100%">
+ 	<div class="text">Memorial for Andrea Marin</div>
 </div>
 
-	<div class="mySlides fade">
-  <div class="numbertext">6 / 6</div>
-  <img src="images/homestyle.jpg" style="width:100%">
-  <div class="text">Homestyle</div>
+<div class="mySlides fade">
+ 	<div class="numbertext">5 / 6</div>
+ 	<img src="images/JFB_6326.jpg" style="width:100%">
+  	<div class="text">At the "The Original" Rose City Gun Show, Corn</div>
 </div>
 
-	<br>
+<div class="mySlides fade">
+  	<div class="numbertext">6 / 6</div>
+  	<img src="images/homestyle.jpg" style="width:100%">
+  	<div class="text">Homestyle</div>
+</div>
 
-	<div style="text-align:center">
+<br>
+
+<div style="text-align:center">
   		<span class="dot"></span> 
   		<span class="dot"></span> 
   		<span class="dot"></span> 
   		<span class="dot"></span>
   		<span class="dot"></span>
   		<span class="dot"></span>
-	</div>
+</div>
 
-	<script>
-var slideIndex = 0;
-showSlides();
+<script>
+	var slideIndex = 0;
+	showSlides();
 
-function showSlides() {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
-    for (i = 0; i < slides.length; i++) {
-       slides[i].style.display = "none";  
-    }
-    slideIndex++;
-    if (slideIndex> slides.length) {slideIndex = 1}    
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";  
-    dots[slideIndex-1].className += " active";
-    setTimeout(showSlides, 4000); // Change image every 3 seconds
-}
+	function showSlides() {
+    	var i;
+    	var slides = document.getElementsByClassName("mySlides");
+    	var dots = document.getElementsByClassName("dot");
+    	for (i = 0; i < slides.length; i++) {
+	slides[i].style.display = "none";}
+		
+    	slideIndex++;
+    	if (slideIndex> slides.length) {slideIndex = 1}    
+    	for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");}
+		
+    	slides[slideIndex-1].style.display = "block";  
+    	dots[slideIndex-1].className += " active";
+    	setTimeout(showSlides, 4000); // Change image every 3 seconds}
+		
 </script>
 	
 </p1>
