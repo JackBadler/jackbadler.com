@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*Desktop View*/
+h1{
+	color: lightpink;
+	font-family: 'courier';
+	font-size: 400%;	
+}
+
+ul{
+    list-style-type: hebrew;
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 100px;
+    background-color: lightpink;
+	font-family: codystar
+}
+
+a:link {
+    text-decoration: none;
+	color: black
+}
+
+a:visited {
+    text-decoration: none;
+	color: white
+}
+
+a:hover {
+    text-decoration: underline;
+	text-decoration-color: white
+}
+
+a:active {
+    text-decoration: underline;
+	text-decoration-color: white
+}
+
+div:class{
+	text-align: justify}
+
+
+/*Tablet View*/
+
+@media (max-width: 768px) {
+	h1 {
+		color: #46FEFF;
+	}
+}
+
+
+/*Mobile View*/
+
+@media (max-width: 400px) {
+	
+	h1{color: #000000;
+	}
+}
+
+
+footer{
+	font-family: codystar;
+}
+p{
+	font-family: courier;
+}
